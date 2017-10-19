@@ -21,7 +21,7 @@ The Pageviews API ([documentation](https://wikitech.wikimedia.org/wiki/Analytics
 
 |  Parameters | Value  | Description  |
 |---|---|---|
-| project  |  en.wikipedia.org |If you want to filter by project, use the domain of any Wikimedia project, for example 'en.wikipedia.org', 'www.mediawiki.org' or 'commons.wikimedia.org'. If you are interested in all pageviews regardless of project, use all-projects.|
+| project  |  en.wikipedia.org |If you want to filter by project, use the domain of any Wikimedia project, for example 'en.wikipedia.org' or 'commons.wikimedia.org'. If you are interested in all pageviews regardless of project, use all-projects.|
 |  access |  mobile / desktop | If you want to filter by access method, use one of desktop, mobile-app or mobile-web. If you are interested in pageviews regardless of access method, use all-access.|
 |  agent |  user | If you want to filter by agent type, use one of user or spider. If you are interested in pageviews regardless of agent type, use all-agents.|
 |  granularity |  monthly | The time unit for the response data. As of today, the supported granularities for this endpoint are hourly, daily, and monthly.|
