@@ -4,7 +4,7 @@
 The goal of this project is to construct, analyze, and publish a dataset of monthly traffic on English Wikipedia from January 1 2008 through September 30 2017. Wikipedia traffic is from two different Wikimedia REST API endpoints, and then to be combined into a single dataset. 
 
 ## License and Terms
-[MIT License](https://opensource.org/licenses/MIT) : Copyright (c) 2017 Becky Wang
+[MIT License](https://opensource.org/licenses/MIT)
 
 [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) and [GFDL](https://www.gnu.org/copyleft/fdl.html)
 
@@ -16,6 +16,10 @@ The legacy Pagecounts API ([documentation](https://wikitech.wikimedia.org/wiki/A
 The Pageviews API ([documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), [endpoint](https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end)) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through September 2017.
 
 ## Variables of Final Data File
+
+Final data stores in ```en-wikipedia_traffic_200801-201709.csv```
+
+Variables shown as follows:
 
 |  Column | Value  |
 |---|---|
@@ -32,12 +36,13 @@ The Pageviews API ([documentation](https://wikitech.wikimedia.org/wiki/Analytics
 ## Directory Structure
 ```
 data-512-a1 (master)
+|
 |     .gitignore
 |     License
 |     README.md
 |     en-wikipedia_traffic_200801-201709.csv
 |     hcds-a1-data-curation.ipynb
-|	  page views of english wikipedia.jpg
+|	    page views of english wikipedia.jpg
 |	
 |----- data
 |     |      pagecounts_desktop-site_200801-201607.json
