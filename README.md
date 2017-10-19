@@ -73,8 +73,8 @@ data-512-a1 (master)
 |     README.md
 |     en-wikipedia_traffic_200801-201709.csv
 |     hcds-a1-data-curation.ipynb
-|	    page views of english wikipedia.jpg
-|	
+|     page views of english wikipedia.jpg
+|	    
 |----- data
 |     |      pagecounts_desktop-site_200801-201607.json
 |     |      pagecounts_mobile-site_200801-201607.json
