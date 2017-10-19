@@ -51,7 +51,21 @@ Variables shown as follows:
 |  pageview_desktop_views |  nums_views |
 |  pageview_mobile_views | nums_views  |
 
-### Data Process and Analysis
+## Data Process and Analysis
+
+Prerequiste Packages:
+
+- urllib
+
+- json 
+
+- datetime
+
+- pandas
+
+- numpy
+
+- matplotlib.pyplot
 
 For data collected from the Pageviews API, I combine the monthly values for mobile-app and mobile-web to create a total mobile traffic count for each month. For all data, separate the value of timestamp into four-digit year (YYYY) and two-digit month (MM) and discard values for day and hour (DDHH).
 
@@ -68,19 +82,26 @@ From the figure above, we can see that in general desktop views are much higher 
 ```
 data-512-a1 (master)
 |
-|     .gitignore
 |     License
 |     README.md
-|     en-wikipedia_traffic_200801-201709.csv
-|     hcds-a1-data-curation.ipynb
 |     page views of english wikipedia.jpg
 |	    
-|----- data
+|----- raw_data
+|     | 
 |     |      pagecounts_desktop-site_200801-201607.json
 |     |      pagecounts_mobile-site_200801-201607.json
 |     |      pageviews_desktop_201507-201709.json
 |     |      pageviews_mobile-app_201507-201709.json
 |     |      pageviews_mobile-web_201507-201709.json
+|     | 
+|----- cleaned_data
+|     |      
+|     |      en-wikipedia_traffic_200801-201709.csv
+|     | 
+|----- scr
+|     |      
+|     |      hcds-a1-data-curation.ipynb
+
 ```
 ## Important Notes
 
